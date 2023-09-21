@@ -1,0 +1,154 @@
+ro.mediatek.platform=MT6877
+ro.vendor.mediatek.platform=MT6877
+ro.hardware=mt6877
+ro.mtk_tee_gp_support=1
+ro.vendor.mtk_tee_gp_support=1
+ro.mtk_microtrust_tee_support=1
+ro.vendor.mtk_microtrust_tee_support=1
+ro.crypto.volume.filenames_mode=aes-256-cts
+ro.hardware.kmsetkey=beanpod
+ro.hardware.wechat=beanpod
+ro.hardware.gatekeeper=beanpod
+ro.vendor.mtk_f2fs_enable=1
+ro.vendor.mtk_emmc_support=1
+ro.vendor.mtk_ufs_support=1
+fbe.metadata.wrappedkey=true
+#
+ro.crypto.metadata.enabled=true
+ro.crypto.support_metadata_encrypt=true
+ro.crypto.uses_fs_ioc_add_encryption_key=true
+ro.crypto.volume.metadata.method=dm-default-key
+ro.crypto.dm_default_key.options_format.version=2
+ro.crypto.volume.options=::v2
+
+# others functions
+ro.secure=0
+ro.adb.secure=0
+ro.debuggable=1
+ro.allow.mock.location=1
+persist.sys.usb.config=mtp,adb
+persist.service.adb.enable=1
+persist.service.debuggable=1
+persist.sys.isUsbOtgEnabled=true
+ro.sys.usb.mtp.whql.enable=0
+ro.sys.usb.storage.type=mtp
+ro.treble.enabled=true
+sys.usb.controller=musb-hdrc
+sys.usb.ffs.aio_compat=true
+#fbe.metadata.wrappedkey=true
+#vendor.gatekeeper.disable_spu=true
+
+
+
+--
+
+ro.build.keystore.path=/sdcard/.lii/
+
+####################################
+# from variable ADDITIONAL_SYSTEM_PROPERTIES
+####################################
+# Removed by post_process_props.py because ro.product.first_api_level is a disallowed key
+#ro.product.first_api_level=30
+ro.treble.enabled=true
+
+ro.minui.pixel_format=RGBX_8888
+ro.boot.dynamic_partitions=true
+ro.product.first_api_level=30
+ro.board.first_api_level=30
+ro.vendor.build.security_patch=2023-03-05
+ro.product.board=k6877v1_64_k419
+ro.board.platform=mt6877
+ro.hwui.use_vulkan=
+ro.build.ab_update=true
+####################################
+# from variable PRODUCT_VENDOR_PROPERTIES
+####################################
+ro.virtual_ab.enabled=true
+ro.virtual_ab.compression.enabled=true
+init.userspace_reboot.is_supported=false
+ro.apex.updatable=true
+ro.zygote=zygote64_32
+####################################
+# from variable PRODUCT_DEFAULT_PROPERTY_OVERRIDES
+####################################
+ro.vendor.rc=/vendor/etc/init/hw/
+ro.oem_unlock_supported=1
+
+
+####################################
+# from variable PRODUCT_PROPERTY_OVERRIDES
+####################################
+ro.sf.lcd_density=480
+
+ro.vendor.mtk_svp_on_mtee_support=1
+ro.hardware.vulkan=mali
+
+ro.frp.pst=/dev/block/by-name/frp
+persist.adb.nonblocking_ffs=0
+
+# build prop start -- system_ext
+persist.sys.fuse.passthrough.enable=true
+
+
+ro.vendor.mediatek.platform=MT6877
+ro.vendor.mtk_f2fs_enable=1
+
+ro.vendor.pq.mtk_backlight_smooth_support=0
+
+ro.hardware.egl=meow
+
+ro.vendor.mtk_tee_gp_support=1
+
+ro.vendor.mediatek.version.branch=alps-mp-s0.mp1.tc16sp-pr8
+ro.vendor.mediatek.version.release=alps-mp-s0.mp1.tc16sp-pr8-V1.5
+
+ro.vendor.mtk_emmc_support=1
+ro.vendor.mtk_ufs_support=1
+
+ro.vendor.mtk_tee_gp_support=1
+ro.hardware.kmsetkey=trustonic
+ro.vendor.mtk_trustonic_tee_support=1
+ro.hardware.gatekeeper=trustonic
+
+ro.crypto.volume.filenames_mode=aes-256-cts
+
+# oplus add props start
+ro.oplus.version.base=6.3.03.2023033117362916110428
+ro.oplus.image.base.version=6.3.03.2023033117362916110428
+# oplus add props end
+# end of file
+
+####################################
+# from variable ADDITIONAL_PRODUCT_PROPERTIES
+####################################
+ro.product.vndk.version=31
+ro.build.characteristics=default
+ro.product.ab_ota_partitions=boot,system,vendor,product,cdt_engineering,system_ext,my_product,my_engineering,my_stock,my_company,my_carrier,my_region,my_heytap,my_preload,my_bigball,my_manifest
+####################################
+# from variable PRODUCT_PRODUCT_PROPERTIES
+####################################
+Build.BRAND=MTK
+ro.soc.manufacturer=Mediatek
+
+# Auto-added by post_process_props.py
+persist.sys.usb.config=none
+# end of file
+
+# RECOVERY UI BUILD PROPERTIES
+#
+# ossi end
+# sysprop.txt start
+ro.product.first_api_level=33
+# sysprop.txt end
+ro.product.authentication=2021CP4386
+ro.vendor.oplus.market.name=RMX3393
+ro.vendor.product.oem=RMX3393
+ro.vendor.product.device.oem=RE879E
+ro.product.brand.sub=realme
+ro.mediatek.platform=MT6877
+ro.soc.model=MT6877V/TZA
+ro.build.device_family=OPMT6877T
+ro.build.display.id=RMX3393_11_A.01
+ro.build.display.id_ims=RMX3393_11_A.01_230331
+ro.mediatek.version.release=RMX3393_11_A.01_230331
+ro.vendor.mediatek.version.release=RMX3393_11_A.01_230331
