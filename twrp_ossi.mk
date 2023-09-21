@@ -14,7 +14,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from ossi device
-$(call inherit-product, ddevice/oplus/ossi/device.mk)
+$(call inherit-product, device/oplus/ossi/device.mk)
 
 PRODUCT_DEVICE := ossi
 PRODUCT_NAME := twrp_ossi
