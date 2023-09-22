@@ -92,7 +92,7 @@ jobs:
       env:
        GITHUB_TOKEN: ${{ secrets.TEST }}
       with:
-       tag_name: Realme 9 Pro Plus-RMX3393
+       tag_name: Realme_9_Pro_Plus-RMX3393
        name: TWRP37x_13
        files: | 
          twrp/out/target/product/ossi/boot*.img
