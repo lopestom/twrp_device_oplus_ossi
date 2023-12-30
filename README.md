@@ -10,10 +10,10 @@ files individually from tester.
 ## Status
 - MT6877 - A13
   - Status: booted??
-  - [?] booted
+  - [X] booted
 
    - boot-ossi-A13-2023MMDD-hhhh.img => Working?? Not working?
-  - [?] Working
+  - [X] Working
 ------------------------------------
 Notes
 
